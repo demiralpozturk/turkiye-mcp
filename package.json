@@ -1,0 +1,58 @@
+{
+  "name": "turkiye-mcp",
+  "version": "0.1.0",
+  "description": "MCP server that gives AI assistants access to useful Turkish public data: TCMB exchange rates, Resmî Gazete, market prices, public holidays, provinces/districts and TCKN/VKN/IBAN checksum validation.",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "turkey",
+    "turkiye",
+    "claude",
+    "cursor",
+    "open-data",
+    "tcmb",
+    "resmi-gazete"
+  ],
+  "author": "Demiralp Öztürk (https://github.com/demiralpozturk)",
+  "license": "MIT",
+  "homepage": "https://github.com/demiralpozturk/turkiye-mcp#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demiralpozturk/turkiye-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/demiralpozturk/turkiye-mcp/issues"
+  },
+  "type": "module",
+  "bin": {
+    "turkiye-mcp": "dist/index.js"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "start": "node dist/index.js",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.7",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.2"
+  }
+}
