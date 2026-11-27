@@ -60,3 +60,20 @@ Bundled static data and its provenance
    Participant codes and names from the TCMB "FAST Sistem Katılımcıları" page
    (https://www.tcmb.gov.tr/wps/wcm/connect/fast/katilimcilar). Used only to
    label the bank code of a checksum-validated IBAN.
+
+-------------------------------------------------------------------------------
+Live data (fetched at runtime, not bundled)
+-------------------------------------------------------------------------------
+
+- TCMB indicative exchange rates: https://www.tcmb.gov.tr/kurlar/today.xml and
+  the dated archive https://www.tcmb.gov.tr/kurlar/YYYYMM/DDMMYYYY.xml
+- Resmî Gazete open data (MIT, by the same author), compiled from the official
+  daily index: https://demiralpozturk.github.io/resmi-gazete-takip/
+  This server does not scrape resmigazete.gov.tr.
+- Supermarket prices open data (MIT, by the same author), derived from the
+  Ministry of Trade's marketfiyati.org.tr store-level prices:
+  https://demiralpozturk.github.io/market-scraper/products_data.json
+  This server does not call marketfiyati.org.tr.
+
+Test fixtures under test/fixtures are trimmed copies of responses from the
+sources above, kept only for offline unit tests.

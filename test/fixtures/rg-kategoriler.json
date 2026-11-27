@@ -1,0 +1,130 @@
+[
+ {
+  "kod": "gumruk",
+  "ad": "Gümrük",
+  "aciklama": "Gümrük mevzuatı, tarife, rejimler, yetkilendirilmiş yükümlü, serbest bölge, kaçakçılık",
+  "renk": "#c2410c",
+  "vurgulu": true,
+  "toplam": 2
+ },
+ {
+  "kod": "dis-ticaret",
+  "ad": "İthalat / İhracat",
+  "aciklama": "Dış ticaret, ithalat ve ihracat rejimleri, damping, korunma önlemleri, ihracat destekleri",
+  "renk": "#0e7490",
+  "vurgulu": true,
+  "toplam": 4
+ },
+ {
+  "kod": "vergi",
+  "ad": "Vergi",
+  "aciklama": "Vergi, harç, tahsilat ve Gelir İdaresi düzenlemeleri",
+  "renk": "#7c3aed",
+  "vurgulu": false,
+  "toplam": 5
+ },
+ {
+  "kod": "finans",
+  "ad": "Finans ve Bankacılık",
+  "aciklama": "Merkez Bankası, döviz kurları, bankacılık, sermaye piyasası, sigorta",
+  "renk": "#15803d",
+  "vurgulu": false,
+  "toplam": 37
+ },
+ {
+  "kod": "enerji",
+  "ad": "Enerji ve Maden",
+  "aciklama": "Elektrik, doğal gaz, petrol, yenilenebilir enerji, madencilik",
+  "renk": "#ca8a04",
+  "vurgulu": false,
+  "toplam": 26
+ },
+ {
+  "kod": "saglik",
+  "ad": "Sağlık",
+  "aciklama": "Sağlık hizmetleri, ilaç, tıbbi cihaz, kozmetik",
+  "renk": "#db2777",
+  "vurgulu": false,
+  "toplam": 6
+ },
+ {
+  "kod": "tarim-gida",
+  "ad": "Tarım ve Gıda",
+  "aciklama": "Tarım, gıda, hayvancılık, bitki sağlığı, su ürünleri, orman",
+  "renk": "#65a30d",
+  "vurgulu": false,
+  "toplam": 11
+ },
+ {
+  "kod": "egitim",
+  "ad": "Eğitim",
+  "aciklama": "Üniversiteler, Millî Eğitim, yükseköğretim",
+  "renk": "#2563eb",
+  "vurgulu": false,
+  "toplam": 49
+ },
+ {
+  "kod": "ihale",
+  "ad": "İhale",
+  "aciklama": "Kamu ihaleleri, artırma ve eksiltme ilanları",
+  "renk": "#0f766e",
+  "vurgulu": false,
+  "toplam": 29
+ },
+ {
+  "kod": "calisma",
+  "ad": "Çalışma ve Sosyal Güvenlik",
+  "aciklama": "İş hukuku, sosyal güvenlik, asgari ücret, istihdam",
+  "renk": "#9333ea",
+  "vurgulu": false,
+  "toplam": 0
+ },
+ {
+  "kod": "ulastirma",
+  "ad": "Ulaştırma ve Lojistik",
+  "aciklama": "Karayolu, denizcilik, havacılık, demiryolu, taşımacılık",
+  "renk": "#0369a1",
+  "vurgulu": false,
+  "toplam": 4
+ },
+ {
+  "kod": "imar",
+  "ad": "İmar ve Yapı",
+  "aciklama": "İmar, yapı, kamulaştırma, kentsel dönüşüm, afet",
+  "renk": "#a16207",
+  "vurgulu": false,
+  "toplam": 5
+ },
+ {
+  "kod": "cevre",
+  "ad": "Çevre ve İklim",
+  "aciklama": "Çevre koruma, iklim, atık, emisyon, korunan alanlar, ÇED",
+  "renk": "#059669",
+  "vurgulu": false,
+  "toplam": 4
+ },
+ {
+  "kod": "kamu-personeli",
+  "ad": "Kamu Personeli",
+  "aciklama": "Görevde yükselme, unvan değişikliği, sözleşmeli personel, atamalar",
+  "renk": "#4338ca",
+  "vurgulu": false,
+  "toplam": 10
+ },
+ {
+  "kod": "sanayi-yatirim",
+  "ad": "Sanayi ve Yatırım",
+  "aciklama": "Organize sanayi, teşvikler, Ar-Ge, kalkınma ajansları, sınai mülkiyet",
+  "renk": "#9f1239",
+  "vurgulu": false,
+  "toplam": 4
+ },
+ {
+  "kod": "yargi",
+  "ad": "Yargı Kararları",
+  "aciklama": "Anayasa Mahkemesi, Yargıtay, Danıştay ve diğer yargı kararları",
+  "renk": "#475569",
+  "vurgulu": false,
+  "toplam": 33
+ }
+]
