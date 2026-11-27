@@ -1,0 +1,62 @@
+turkiye-mcp
+Copyright (c) 2026 Demiralp Öztürk
+Licensed under the MIT License (see LICENSE).
+
+Unofficial; not affiliated with TCMB, Resmî Gazete, the Ministry of Trade or any
+public institution. No official logos or trademarks are used.
+
+-------------------------------------------------------------------------------
+Bundled static data and its provenance
+-------------------------------------------------------------------------------
+
+1) src/data/il-ilce.ts — provinces, plate codes and districts
+
+   The 81 provinces and 973 districts are official administrative divisions of
+   Türkiye (T.C. İçişleri Bakanlığı, "Mülki İdare Bölümleri Envanteri"); names
+   of administrative units are public facts.
+
+   The district lists were seeded from merkdev/Turkiye-iller-ilceler-PHP-Array
+   (https://github.com/merkdev/Turkiye-iller-ilceler-PHP-Array), which is
+   distributed under the MIT License:
+
+     MIT License
+     Copyright (c) 2017 Kamer DINC
+
+     Permission is hereby granted, free of charge, to any person obtaining a
+     copy of this software and associated documentation files (the
+     "Software"), to deal in the Software without restriction, including
+     without limitation the rights to use, copy, modify, merge, publish,
+     distribute, sublicense, and/or sell copies of the Software, and to permit
+     persons to whom the Software is furnished to do so, subject to the
+     following conditions:
+
+     The above copyright notice and this permission notice shall be included
+     in all copies or substantial portions of the Software.
+
+     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+     OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+     MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+     NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+     DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+     OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+     USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+   Changes made here: updated for official changes after 2017 (Eyüp renamed
+   Eyüpsultan; new districts Sultanhanı/Aksaray and Kemalpaşa/Artvin in 2017
+   and Derecik/Hakkari in 2018), spellings aligned with official forms
+   (Hadim, 19 Mayıs, Marmaraereğlisi), central districts of non-metropolitan
+   provinces named "Merkez", plate codes, regions and metropolitan flags added.
+   Every province's district set was cross-checked against independent public
+   lists; the total (973) matches the Ministry of Interior inventory.
+
+2) src/data/dini-bayramlar.ts — Ramazan and Kurban Bayramı dates, 2024–2030
+
+   Dates taken from the Diyanet İşleri Başkanlığı "Dini Günler" calendars
+   (https://vakithesaplama.diyanet.gov.tr/dini_gunler.php). Calendar dates are
+   facts; only the first day of each holiday is stored.
+
+3) src/data/banka-kodlari.ts — bank / payment institution codes for IBAN labels
+
+   Participant codes and names from the TCMB "FAST Sistem Katılımcıları" page
+   (https://www.tcmb.gov.tr/wps/wcm/connect/fast/katilimcilar). Used only to
+   label the bank code of a checksum-validated IBAN.
