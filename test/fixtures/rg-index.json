@@ -1,0 +1,150 @@
+{
+ "son_tarih": "2026-11-27",
+ "ilk_tarih": "2026-10-30",
+ "gun_sayisi": 29,
+ "gunler": [
+  {
+   "tarih": "2026-11-27",
+   "sayilar": [
+    {
+     "sayi": 33443,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261127.pdf"
+    }
+   ],
+   "madde_sayisi": 31,
+   "kategoriler": {
+    "cevre": 1,
+    "dis-ticaret": 1,
+    "egitim": 1,
+    "enerji": 5,
+    "finans": 3,
+    "gumruk": 1,
+    "ihale": 1,
+    "imar": 2,
+    "kamu-personeli": 1,
+    "tarim-gida": 1,
+    "ulastirma": 1,
+    "vergi": 2,
+    "yargi": 5
+   },
+   "dosya": "data/2026/11/27.json"
+  },
+  {
+   "tarih": "2026-11-26",
+   "sayilar": [
+    {
+     "sayi": 33442,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261126.pdf"
+    }
+   ],
+   "madde_sayisi": 16,
+   "kategoriler": {
+    "dis-ticaret": 1,
+    "egitim": 3,
+    "enerji": 1,
+    "finans": 1,
+    "ihale": 1,
+    "yargi": 8
+   },
+   "dosya": "data/2026/11/26.json"
+  },
+  {
+   "tarih": "2026-11-25",
+   "sayilar": [
+    {
+     "sayi": 33441,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261125.pdf"
+    }
+   ],
+   "madde_sayisi": 6,
+   "kategoriler": {
+    "egitim": 2,
+    "finans": 1,
+    "ihale": 1,
+    "kamu-personeli": 1
+   },
+   "dosya": "data/2026/11/25.json"
+  },
+  {
+   "tarih": "2026-11-24",
+   "sayilar": [
+    {
+     "sayi": 33440,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261124.pdf"
+    }
+   ],
+   "madde_sayisi": 8,
+   "kategoriler": {
+    "egitim": 1,
+    "finans": 1,
+    "ihale": 1,
+    "tarim-gida": 1,
+    "vergi": 2,
+    "yargi": 1
+   },
+   "dosya": "data/2026/11/24.json"
+  },
+  {
+   "tarih": "2026-11-23",
+   "sayilar": [
+    {
+     "sayi": 33439,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261123.pdf"
+    }
+   ],
+   "madde_sayisi": 6,
+   "kategoriler": {
+    "egitim": 2,
+    "finans": 1,
+    "ihale": 1
+   },
+   "dosya": "data/2026/11/23.json"
+  },
+  {
+   "tarih": "2026-10-31",
+   "sayilar": [
+    {
+     "sayi": 33416,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/10/20261031.pdf"
+    }
+   ],
+   "madde_sayisi": 24,
+   "kategoriler": {
+    "enerji": 6,
+    "finans": 1,
+    "gumruk": 1,
+    "ihale": 1,
+    "kamu-personeli": 1,
+    "sanayi-yatirim": 1,
+    "tarim-gida": 1,
+    "ulastirma": 1
+   },
+   "dosya": "data/2026/10/31.json"
+  },
+  {
+   "tarih": "2026-10-30",
+   "sayilar": [
+    {
+     "sayi": 33415,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/10/20261030.pdf"
+    }
+   ],
+   "madde_sayisi": 13,
+   "kategoriler": {
+    "egitim": 2,
+    "finans": 1,
+    "ihale": 1,
+    "imar": 1,
+    "yargi": 6
+   },
+   "dosya": "data/2026/10/30.json"
+  }
+ ]
+}
